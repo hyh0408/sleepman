@@ -17,7 +17,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'site.sleepman'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 9
+sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
@@ -53,6 +53,8 @@ dependencies {
 	compile('org.springframework.session:spring-session-data-redis')
 	compile('org.springframework.session:spring-session-jdbc')
 	compile('org.apache.zookeeper:zookeeper:3.4.11')
+	compile('ch.qos.logback:logback-classic:1.1.6')
+	compile('ch.qos.logback:logback-core:1.1.6')
 	runtime('org.springframework.boot:spring-boot-devtools')
 	runtime('mysql:mysql-connector-java')
 	compileOnly('org.springframework.boot:spring-boot-configuration-processor')
