@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sleepman.iml" filepath="$PROJECT_DIR$/.idea/sleepman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javatest.iml" filepath="$PROJECT_DIR$/.idea/modules/javatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javatest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/javatest_main.iml" group="javatest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javatest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/javatest_test.iml" group="javatest" />
     </modules>
   </component>
 </project>
